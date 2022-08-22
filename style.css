@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(32, 97, 60);
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+h1{
+display: flex;
+justify-content: center;
+font-size: 60px;
+color:#305a23;
+}
+header{
+    background-image: linear-gradient(to bottom, #948300, #E0CE3A);
+    font-family: 'Amatic SC';
+}
+.intro{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Julius Sans One';
+    font-weight: bold;
+    color: #305a23;
+}
+nav{
+
+    background-color: #ccba36;
+    text-align: center;
+    padding: 7px;
+    margin-bottom: 3px;
+}
+nav>a{
+    margin: 8px;
+    padding: 5px;
+    color: #549441;
+    font-family: 'Shadows Into Light', serif;
+    font-size: 25px;
+    border-radius: 5px;
+    transition-duration: 1s;
+
+}
+nav>a:hover{
+    background-color: #bbab2f;
+}
+.history{
+    font-family: 'Ibarra Real Nova';
+    background-color: rgb(206, 217, 228);
+    padding: 25px;
+    text-align: center;
+    margin-left: 115px;
+    margin-right: 115px;
+    margin-bottom: 3px;
+    outline: 3px solid black;
+    
+}
+.becoming{
+    font-family: 'Ibarra Real Nova';
+    background-color: rgb(206, 217, 228);
+    padding: 15px;
+    text-align: center;
+    margin-left: 115px;
+    margin-right: 115px;
+    outline: 3px solid black;
+}
+h3{
+    text-align: center;
+    padding: 10px;
+}
+.message{
+    padding: 20px;
+    font-weight:bolder;
+    background-color: chocolate;
+    width: 40%;
+    text-align: center;
+}
+em{
+    background-color: chocolate;
+}
+img{
+    display: block;
+    justify-content: right;
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+footer{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #948300, #E0CE3A);
+    padding-bottom: 10px;
+    padding-top: 25px;
+    outline: 3px solid black;
+
+}
+    footer>p{
+        display: inline;
+        margin: 20px;
+        padding: 10px;
+        font-size: 2vw;
+        min-width: 660px;
+    
+    }
+    .arthur{
+        background-color: #817202;
+        font-size: 2vw;
+        margin: auto;
+       
+    }
+    .year{
+        background-color: #817202;
+        font-size: 2vw;
+        margin: auto;
+    }
+    .rights{
+        background-color: #817202;
+        font-size: 2vw;
+        margin: auto;
+    }
+
